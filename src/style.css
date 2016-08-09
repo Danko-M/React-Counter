@@ -1,0 +1,82 @@
+body {
+  padding-top: 50px;
+  background-color: #9fbcb4;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;  
+}
+h1 {
+  margin-bottom: 50px;
+  font-weight: 400;  
+  color: #634b4b;
+  text-shadow: 2px 1px 2px rgb(134, 176, 176);
+}
+.comment {
+  font-size: 18px;
+}
+.counter {
+  width: 320px;
+  height: 480px;
+  padding-top: 120px;
+  margin: 0 auto -200px;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: #634b4b;
+  background: -webkit-linear-gradient(top, #86b0b0, #d8e3e0); 
+  background: -o-linear-gradient(top, #86b0b0, #d8e3e0);
+  background: -moz-linear-gradient(top, #86b0b0, #d8e3e0);
+  background: linear-gradient(top, #86b0b0, #d8e3e0);
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 10px 38px -2px rgba(134,176,176,1);
+  -moz-box-shadow: 0px 10px 38px -2px rgba(134,176,176,1);
+  box-shadow: 0px 10px 38px -2px rgba(0, 0, 0, 0.1);;
+  
+}
+.result {
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+  text-shadow: 2px 1px 1px rgb(134, 176, 176);
+}
+.reset {
+  width: 70px;
+  margin: 30px auto 10px; 
+  font-style: italic;
+  letter-spacing: 2px;
+  cursor: pointer;
+
+}
+.reset:hover {
+  text-decoration: underline;
+}
+button,
+input {
+  padding: 7.5px;
+  margin-top: 20px;   
+  font-size: 16px;
+  color: #634b4b;
+  text-align: center;
+  border: 0;
+  border-radius: 2px;
+  background: #9ebfbe;
+}
+button:focus,
+input:focus {outline:0;}
+button {
+    min-width: 103px;
+    cursor: pointer;
+}
+button + button {  
+  margin-left: 5px;
+}
+button:hover,
+input:hover{
+    background: #86b0b0;
+}
+.tip {
+  margin: 10px 0 85px;
+  font-style: italic;
+  font-size: 13px;
+}
+a {
+  color: #634b4b;
+}
